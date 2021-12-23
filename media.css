@@ -1,0 +1,118 @@
+@media (max-width: 1150px) {
+    .series-cards-content{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .coll-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .films-cards{
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    
+    .series-main__card{
+        background-position: center;
+    }
+}
+
+@media (max-width: 650px) {
+    .footer-content{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px
+    }
+    
+    .series-mini-cards{
+        justify-content: center;
+    }
+    
+    .nav-content__list{
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+        gap: 50px;
+        background: linear-gradient(90deg, rgba(255,0,241,0.196516106442577) 0%, rgba(210,16,16,0.17130602240896353) 11%, rgba(29,0,255,0.17970938375350143) 77%);
+        transition: 500ms;
+    }
+    
+    .nav-content__list-link{
+        font-size: 35px;
+    }
+    
+    .burger{
+        display: block;
+        font-size: 40px;
+        position: absolute;
+        right: 5%;
+        z-index: 999;
+    }
+    
+    .burger:hover ~ .nav-content__list{
+        left: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .trailer-content img{
+        width: 100%;
+    }
+    
+    .header-content h1{
+        font-size: 50px;
+    }
+    
+    .header-content div{
+        display: flex;
+        gap: 20px;
+    }
+    
+    .btn{
+        margin: 0;
+        padding: 10px 28px;
+    }
+}
+
+@media (max-width: 800px) {
+    .series-main__card{
+        background: url(https://steamuserimages-a.akamaihd.net/ugc/942812416678514721/AFBA6247A7B7FEAA98F9B47B3931865037356125/?imw=512&amp;imh=320&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true) center /cover;
+        height: 800px;
+    }
+    
+    .wanda-vision{
+        background-position: center;
+    }
+    
+    .footer-content p{
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 330px) {
+    .header-content h1{
+        font-size: 40px;
+    }
+    
+    .nav-content img{
+        width: 80%;
+    }
+    
+    .burger{
+        font-size: 30px;
+    }
+    
+    .nav-content__list-link{
+        font-size: 24px;
+    }
+}
